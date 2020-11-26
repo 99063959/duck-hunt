@@ -1,0 +1,27 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+#container{
+	background-image: url("stage.png");
+	margin: 0 auto;
+	height: 100vh;
+	width: 100%;
+}
+
+#duck{
+	width: 150px;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#button1{
+	background-color: green;
+}
+
+#button2{
+	background-color: red;
+}
